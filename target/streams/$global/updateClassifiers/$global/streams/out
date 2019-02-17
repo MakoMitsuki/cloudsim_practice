@@ -1,0 +1,302 @@
+[0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#cs441_1$sources;0.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
+[0m[[0m[0mdebug[0m] [0m[0m	refresh = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.8 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[default, master(*), compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.8] org.scala-lang#scala-library;2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'provided'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'optional'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [runtime-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [test-internal][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [test][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [compile->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [runtime->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [provided][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->default(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [test-internal->master][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [plugin][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'pom'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [pom][0m
+[0m[[0m[0mdebug[0m] [0m[0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies for default#cs441_1$sources;0.1 [scala-tool][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-library;2.12.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->default][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.8 {scala-tool=[default, compile, runtime, optional, optional(default), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->optional(default)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-compiler;2.12.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.8 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.8 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[2.12.8] org.scala-lang#scala-reflect;2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->runtime][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->org.scala-lang#scala-reflect;2.12.8 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->jline#jline;2.14.6 [scala-tool->compile][0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.14.6 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.6 in sbt-chain[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->jline#jline;2.14.6 [scala-tool->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->jline#jline;2.14.6 [scala-tool->compile(*)][0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#cs441_1$sources;0.1->jline#jline;2.14.6 [scala-tool->master][0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 408ms :: artifacts dl 8ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 compile produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 runtime produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 test produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 provided produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 optional produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 compile-internal produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 runtime-internal produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 test-internal produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 plugin produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 pom produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#cs441_1$sources;0.1 scala-tool produced in C:\Users\mika\Documents\cs441\cs441_1\target\scala-2.12\resolution-cache\reports\default-cs441_1$sources-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (408ms resolve - 8ms download)[0m
